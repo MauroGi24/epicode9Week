@@ -1,0 +1,205 @@
+body {
+    background-color: #F5F4F8;
+}
+
+.container {
+    padding: 0 2rem;
+}
+
+#hero {
+    background: #7550FE;
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #19113C;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #19113C;
+    margin-bottom: 0.8rem;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #19113C;
+}
+
+nav {
+    background-color: white;
+}
+
+/* Navbar icons */
+
+nav span {
+    background-color: #F5F4F8;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+.material-symbols-outlined {
+    font-size: 35px;
+    color: #A6A9C5;
+    cursor: pointer;
+}
+
+.rounded-circle {
+    background-color: #7550FE;
+    border: 2px solid white;
+    position: absolute;
+    left: 30px;
+}
+
+.rounded-profile {
+    background-color: green;
+    border: 2px solid white;
+    position: relative;
+    right: 11px;
+    top: 15px;
+}
+
+.ico-profile {
+    width: 18%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Navbar menu */
+
+.dropdown-menu {
+    border-color: transparent;
+}
+
+@media screen and (min-width: 992px) {
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+}
+
+/* Section Hero */
+
+#hero p {
+    color: #BCA8FF;
+}
+
+#hero button {
+    background-color: #1ACB98;
+    border-radius: 5px;
+    padding: 0.8rem;
+    color: white;
+    border: none;
+}
+
+#hero button:last-of-type {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 0.8rem;
+}
+
+main {
+    padding: 5rem 0;
+}
+
+/* Highlights */
+
+#highlights {
+    background-color: white;
+    padding-bottom: 1rem;
+}
+
+.title-highlights {
+    font-weight: bold;
+}
+
+.subtitle-highlights {
+    display: block;
+    color: grey;
+}
+
+.icon {
+    background-color: #FFEEDA;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+/* Card */
+
+.card {
+    transition: transform 500ms, box-shadow 0.3s;}
+
+.card:hover {
+    transform: scale(0.95);
+    box-shadow: 0px 0px 15px 0px #78787877;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-body img {
+    width: 7%;
+    margin: 0 0.5rem;
+}
+
+.card-body span:first-child {
+    color: #5C5776;
+}
+
+.star {
+    color: #ffaa46
+}
+
+.star span:last-child {
+    color: #AAA5BB;
+}
+
+.price h4 {
+    display: inline-block;
+}
+
+.price del {
+    color: #AAA5BB;
+    font-size: 0.9rem;
+}
+
+.card-footer {
+    background-color: white;
+    padding: 0.8rem 1.5rem;
+}
+
+.card-footer img {
+    border-radius: 50%;
+    width: 15%;
+    margin-right: 0.5rem;
+}
+
+.card-footer i {
+    color: grey;
+}
+
+/* Footer */
+
+footer {
+    color: #A5B1C9;
+}
+
+footer a{
+    text-decoration: none;
+    color: #A5B1C9;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    margin-right: 0.5rem;
+}
+
+
